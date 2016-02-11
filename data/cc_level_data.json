@@ -1,0 +1,34 @@
+[
+  {
+    "level_number":1,
+    "time":100,
+    "num_chips":10,
+    "upper_layer":10,
+    "lower_layer":10,
+    "optional_fields":[
+      {
+        "type_val":7,
+        "hint":"This is a hint"
+      },
+      {
+        "type_val":10,
+        "monsters":[
+          [0,1],
+          [5,20]
+        ]
+      },
+      {"type_val":3,
+      "map_title":"Title"
+      }
+
+    ]
+
+    "CCCoordinate":{"x","y"}, "CCTrapControl":{{"button_coord":{"bx","by"}}, "trap_coord":{"tx","ty"}},
+  },
+level_data 4["traps","cloning_machine_control"]
+  {
+    "traps":""
+
+  }
+
+]
