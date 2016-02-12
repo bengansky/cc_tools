@@ -174,7 +174,7 @@ def make_cc_data_from_dat(dat_file):
         A CCDataFile object constructed with the data from the given file
     """
     data = cc_data.CCDataFile()
-    with open(dat_file, 'rb') as reader:
+        with open(dat_file, 'rb') as reader:
         header_bytes = do_read(reader, 4)
         if header_bytes != CC_DAT_HEADER_CODE:
             print("ERROR: Invalid header found. Expected " + str(CC_DAT_HEADER_CODE) + ", but found " + header_bytes)
